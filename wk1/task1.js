@@ -1,9 +1,9 @@
 const gretter = (myArray) => {
     let greetText = 'Hello ';
 
-    for(const element of myArray)
+    for(const name of myArray)
     {
-        console.log('Hello '+ element);
+        console.log('$(greetText) $(name) ');
     }
 }
 
